@@ -4,6 +4,13 @@ body{
    
 }
 
+.nombre-pagina{
+    background-color: #817b7b;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(90, 221, 156);
+}
+
 .cabecera{
     display: flex;
     padding: 0% 0% 0% 0%;
@@ -172,6 +179,21 @@ body{
     background-color: rgb(243, 20, 187);
 }
 
+#descripcion{
+    width: 400px;
+    height: 100px;
+}
+
+#email{
+    width: 200px;
+
+}
+
+#nombre{
+    width: 300px;
+
+}
+
 
 #seccion-login, #seccion-perfil{
     display: flex;
@@ -234,6 +256,54 @@ body{
 
 }
 
+.productosM td:nth-child(1){
+    width: 350px;
+
+}
+
+.productosM td:nth-child(2){
+    width: 100px;
+
+}
+
+.productosM td:nth-child(3){
+    width: 150px;
+
+}
+
+   
+.seccion-pedidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #FFFF;
+    padding: 20px;
+    
+}
+
+
+
+
+
+
+#tabla-pedidos{
+    border: solid black 2px;
+}
+
+#estadoS{
+    width: 100%;
+}
+
+#tabla-pedidos td:nth-child(1){
+ text-align: center;
+}
+
+.buscarB{
+    background-color: rgb(65, 162, 175);
+    border: solid  rgb(65, 162, 175) 1px;
+    color: white
+}
 
 
 

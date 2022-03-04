@@ -13,22 +13,16 @@
         <div class="logo"><img src="./logo_mini.jpg" alt="logo"></div>
     </header>
 
+    <section class="nombre-pagina">
+        <h1>Inventario</h1>
+    </section>
+
 <article>
-    <div class="formulario">
+    <seccion class="formulario">
         <div class="formulario-servicio">
             <h2 class="titulos-form">Servicio</h2>
             <label for="pasteles">Número de Pasteles</label>
             <input type="number" id="pasteles" name="pasteles" value="1" min="1", max="10">
-            <label for="personas">Tamaño (No. de Personas)</label>
-            <select name="personas" id="personas">
-                <option value="p8">8</option>
-                <option value="p8">16</option>
-                <option value="p8">24</option>
-                <option value="p8">50</option>
-                <option value="p8">100</option>
-
-
-            </select>
             <p>Servicio es para: <br>
             <input type="radio" id="aqui" name="servicio" value="aqui">
             <label for="roja">Comer aquí</label><br>
@@ -47,9 +41,9 @@
             <div>$</div>
         </div>
 
-    </div>
+    </seccion>
 
-    <div class="formulario">
+    <seccion class="formulario">
         
         <div class="formulario-cliente"> 
             
@@ -59,55 +53,57 @@
             <br><br>
             <label for="telefono">Teléfono:</label>
             <input type="tel" name="telefono" id="telefono">
+            <br><br>
             <label for="email">Correo Electrónico:</label>
             <input type="email" name="email" id="email">
+            <br><br>
         </div>
             
             
        
        
         <div class="formulario-cliente">
-                <label for="descripcion">Descripción del Pastel:</label>
+                <h2 class="titulos-form">Descripcion del Pastel</h2>
                 <input type="text" name="descripcion" id="descripcion">
         </div>
 
-    </div>
+    </seccion>
 
     
 
     
 
-    <div class="formulario"> 
+    <seccion class="formulario"> 
         <div class="formulario-orden">
             <h2 class="titulos-form">Sabores</h2>
              <input type="checkbox" value="saborP1" id="sabor1">
-             <label for="sabor1">Sabor 1</label>
+             <label for="sabor1">Luna</label>
              <input type="checkbox" value="saborP2" id="sabor2">
-             <label for="sabor2">Sabor 2</label>
+             <label for="sabor2">Tierra</label>
              <input type="checkbox" value="saborP3" id="sabor3">
-             <label for="sabor3">Sabor 3</label>
+             <label for="sabor3">Marte</label>
              <input type="checkbox" value="saborP4" id="sabor4">
-             <label for="sabor4">Sabor 4</label>
+             <label for="sabor4">Saturno</label>
              <input type="checkbox" value="saborP5" id="sabor5">
-             <label for="sabor5">Sabor 5</label>
+             <label for="sabor5">Jupiter</label>
         </div>
         
         
         <div class="formulario-orden">
             <h2 class="titulos-form">Adornos</h2>
             <input type="checkbox" value="adornoP1" id="adorno1">
-            <label for="adorno1">Adorno 1</label>
+            <label for="adorno1">Bandera de México</label>
             <input type="checkbox" value="adornoP2" id="adorno2">
-            <label for="adorno2">Adorno 2</label>
+            <label for="adorno2">Astronauta</label>
             <input type="checkbox" value="adornoP3" id="adorno3">
-            <label for="adorno3">Adorno 3</label>
+            <label for="adorno3">Nave Espacial</label>
             <input type="checkbox" value="adornoP4" id="adorno4">
-            <label for="adorno4">Adorno 4</label>
+            <label for="adorno4">Satélite</label>
             <input type="checkbox" value="adornoP5" id="adorno5">
-            <label for="adorno5">Adorno 5</label>
+            <label for="adorno5">Cohete Espacial</label>
         </div>
         
-    </div>
+    </seccion>
 
 </article>
 
